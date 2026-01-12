@@ -817,8 +817,9 @@ body {
   font-size: 3rem;
   margin-bottom: 1rem;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white !important;
 
-  -webkit-text-fill-color: transparent;
+  /* -webkit-text-fill-color: transparent; */
 }
 
 .hero-section p {
@@ -838,6 +839,7 @@ body {
 @media (max-width: 768px) {
   .hero-section h1 {
     font-size: 2rem;
+    color: white;
   }
   
   .hero-buttons {
